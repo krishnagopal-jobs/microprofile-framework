@@ -1,0 +1,14 @@
+thorntail:
+  http:
+    port:8100
+  datasources:
+    data-sources:
+      MyDatasource:
+        driver-name: mysql
+        connection-url: jdbc:mariadb://localhost:3306/test;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+        user-name: myuser
+        password: mypassword
+#    jdbc-drivers:
+#       mariadb:
+#       driver-module-name: com.h2database.h2
+#       driver-xa-datasource-class-name: org.h2.jdbcx.JdbcDataSource
